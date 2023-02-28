@@ -235,7 +235,7 @@ def main():
 
         elif modelo == 'modelo 3':
             st.markdown('A modo de yapa, incorporamos un modelo desde _Hugging Face_ :hugging_face:, __pa joder nomas!__')
-            data = 'a la espera de que pase algo...'
+            tweet = 'a la espera de que pase algo...'
             with st.form("my_form_8"):
              tweet = st.text_input('Escriba un Tweet:')
              submitted = st.form_submit_button("Dale, __quiero saber!__ Realmente no aguanto más... :scream:")
